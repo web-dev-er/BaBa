@@ -1256,12 +1256,14 @@ our facts
 */
 
 section.our-facts {
-  background-image: url(../images/facts-bg.jpg);
+  background-image: url(../images/teachers.jpeg);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 140px 0px 125px 0px;
+  opacity: 0.7;
+  backface-visibility: inherit;
 }
 
 section.our-facts h2 {
